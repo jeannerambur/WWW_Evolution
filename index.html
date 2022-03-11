@@ -1135,11 +1135,11 @@
 			$svg.drawsvg('progress', p);
 		});
 
-
 		var $rows = $('.section-2 > .container').find('.row'), // on récupère tous les liens de la nav
 
 		$previousActive = null, // on créé une variable qui va nous permettre de stocker l'élément précédemment actif
 		threshold = 400; // débattement
+
 
 		$(window).on('scroll', function(){ // à chaque fois qu'on scroll
 			var currentScrollTop = $(this).scrollTop(); // on récupère la position du scroll
@@ -1159,10 +1159,12 @@
 			}
 		});
 
-		var $rowsSection6 = $('.section-6 > .container').find('.row'), // on récupère tous les liens de la nav
 
+		var $rowsSection6 = $('.section-6 > .container').find('.row'), // on récupère tous les liens de la nav
+		threshold2 = 300;
 		$previousActive2 = null, // on créé une variable qui va nous permettre de stocker l'élément précédemment actif
-		threshold2 = 400; // débattement
+		 // débattement
+
 		$(window).on('scroll', function(){ // à chaque fois qu'on scroll
 			var currentScrollTop = $(this).scrollTop(); // on récupère la position du scroll
 			var $active = null;
