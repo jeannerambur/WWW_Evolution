@@ -6,6 +6,10 @@
   body {
     margin: 0; }
 
+  h2 {
+    width: 60%;
+    margin-left: 20%; }
+
   .large-media {
     display: none; }
 
@@ -31,7 +35,10 @@
       display: none; }
     .wrapper .hero-section {
       padding: 100px 0 0; }
+      .wrapper .hero-section .col-12 {
+        background-color: #8C8C77; }
       .wrapper .hero-section .text-block {
+        color: #fff;
         width: 100%;
         max-width: 550px;
         text-align: center;
@@ -41,6 +48,9 @@
       .wrapper .section-1 .text-block {
         padding-bottom: 45px;
         text-align: center; }
+        .wrapper .section-1 .text-block h2 {
+          background-color: transparent;
+          color: #404040; }
     .wrapper .section-3 {
       padding: 90px 0 0; }
       .wrapper .section-3 .container {
@@ -50,6 +60,14 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      padding-top: 20%; } }
+      padding-top: 20%; }
+
+  .wrapper2 {
+    padding-bottom: 20%; }
+
+  .sources {
+    position: relative;
+    max-width: 80%;
+    left: 10%; } }
 
 /*# sourceMappingURL=mobile.css.map */

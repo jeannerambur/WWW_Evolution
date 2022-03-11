@@ -51,6 +51,9 @@
         margin-top: 15px;
     }
     .container {
+        .text-block {
+            text-align: center;
+        }
         .text-block.block-1 {
             padding-bottom: 175px;
         }
@@ -62,7 +65,6 @@
         }
         .text-block.r-block {
             padding-right: 0px;
-            text-align: right;
         }
         .text-block.block-4 {
             padding-bottom: 100px;
@@ -97,6 +99,10 @@
             padding: 20px 0 810px;
             .text-block {
                 text-align: center;
+                h2 {
+                    width: 30%;
+                    margin-left: 35%;
+                }
             }
         }
         .section-3, .section-7 {
@@ -150,6 +156,13 @@
                 margin: 0 auto;
             }
         }
+    }
+    .sources {
+
+        position: relative;
+        margin-top: 10%;
+        max-width: 80%;
+        left: 10%;
     }
 
 }
