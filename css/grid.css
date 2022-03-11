@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+h5 {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2.8px;
+  margin: 0 0 10px; }
+
+h2 {
+  font-size: 36px;
+  font-family: 'Slabo 13px', serif;
+  margin: 0; }
+
+h1 {
+  font-family: 'Slabo 13px', serif;
+  font-size: 80px; }
+
+p {
+  line-height: 30px;
+  margin: 0 0 20px;
+  font-size: 18px; }
+
+@media only screen and (min-width: 990px) {
+  .container {
+    max-width: 1140px; } }
+@media only screen and (max-width: 990px) {
+  .container {
+    max-width: 720px;
+    width: 80%;
+    left: 10%; } }
+@media all and (min-width: 991px) and (max-width: 1200px) {
+  .container {
+    max-width: 960px !important; }
+
+  .ilustration {
+    padding-top: 80vh !important;
+    width: 100%; }
+    .ilustration svg {
+      max-width: 200% !important;
+      width: 105% !important; } }
+
+/*# sourceMappingURL=grid.css.map */

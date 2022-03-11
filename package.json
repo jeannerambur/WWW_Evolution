@@ -1,0 +1,15 @@
+{
+  "name": "www_evolution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.drawsvg.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/style.scss:./css/style.css ./scss/grid.scss:./css/grid.css ./scss/desktop.scss:./css/desktop.css ./scss/mobile.scss:./css/mobile.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "node-sass": "^7.0.1"
+  }
+}
