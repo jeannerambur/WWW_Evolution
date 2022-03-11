@@ -104,19 +104,21 @@
         .wrapper .section-4 .container .text-block {
           width: 100%;
           max-width: 290px; }
-    .wrapper .section-5 {
-      padding: 250px 0 0; }
-      .wrapper .section-5 .first-website-fr {
-        padding-bottom: 10px !important; }
-    .wrapper .section-7 {
-      margin-bottom: 20%; }
-      .wrapper .section-7 h2 {
-        text-align: center; }
-      .wrapper .section-7 .text-block {
-        width: 100%;
-        max-width: 800px;
-        text-align: justify;
-        margin: 0 auto; }
+
+  .section-5 {
+    padding: 250px 0 0; }
+    .section-5 .first-website-fr {
+      padding-bottom: 10px !important; }
+
+  .section-7 {
+    margin-bottom: 20%; }
+    .section-7 h2 {
+      text-align: center; }
+    .section-7 .text-block {
+      width: 100%;
+      max-width: 800px;
+      text-align: justify;
+      margin: 0 auto; }
 
   .sources {
     position: relative;
