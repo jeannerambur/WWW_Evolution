@@ -71,6 +71,45 @@
 
             }
         }
+
+        .section-2 {
+            .row {
+                .book path:nth-child(1) {
+                    stroke-dasharray: 2720px;
+                    stroke-dashoffset: 2720px;
+                }
+                .baby path:nth-child(1) {
+                    stroke-dasharray: 2020px;
+                    stroke-dashoffset: 2020px;
+                }
+                .computer path:nth-child(1) {
+                    stroke-dasharray: 3500px;
+                    stroke-dashoffset: 3500px;
+                }
+                .robert path:nth-child(1) {
+                    stroke-dasharray: 3500px;
+                    stroke-dashoffset: 3500px;
+                }
+                &.active {
+                    .book path:nth-child(1) {
+                        animation: anim 4s ease forwards;
+                    }
+                    .baby path:nth-child(1) {
+                        animation: anim 4s ease forwards;
+                    }
+                    .computer path:nth-child(1) {
+                        animation: anim 4s ease forwards;
+                    }
+                    .robert path:nth-child(1) {
+                        animation: anim 4s ease forwards;
+                    }
+                }
+            }
+
+        }
+
+
+
         .section-3 {
             padding: 90px 0 0;
             .container {
@@ -84,13 +123,77 @@
                 align-items: center;
                 text-align: center;
                 padding-top: 20%;
+
+                h2 {
+                    background-color: transparent;
+                    color: #404040;
+                }
             }
         }
 
     }
     .wrapper2 {
         padding-bottom: 20%;
+
+        .labo-small path:nth-child(1) {
+            stroke-dasharray: 2800px;
+            stroke-dashoffset: 2800px;
+        }
+        &.active {
+            .labo-small path:nth-child(1) {
+                animation: anim 2s ease forwards;
+            }
+        }
+
+        .section-6 {
+            .row {
+                &:nth-child(1) {
+                    .mosaic-small path {
+                        stroke-dasharray: 1500px;
+                        stroke-dashoffset: 1500px;
+                    }
+                }
+                &.active {
+                    .mosaic-small path {
+                        animation: anim 2s ease forwards;
+                    }
+                    .wifi-small path {
+                        animation: anim 4s ease forwards;
+                    }
+
+                    .attention path {
+                        animation: anim 6s ease forwards;
+                    }
+
+                    .smart path {
+                        animation: anim 9s ease forwards;
+                    }
+                }
+
+                &:nth-child(4) {
+                    .wifi-small path {
+                        stroke-dasharray: 1500px;
+                        stroke-dashoffset: 1500px;
+                    }
+                }
+                &:nth-child(8) {
+                    .attention path {
+                        stroke-dasharray: 3000px;
+                        stroke-dashoffset: 3000px;
+                    }
+                }
+                &:nth-child(11) {
+                    .smart path {
+                        stroke-dasharray: 3000px;
+                        stroke-dashoffset: 3000px;
+                    }
+                }
+            }
+
+        }
+
     }
+
     .sources {
         position: relative;
         max-width: 80%;

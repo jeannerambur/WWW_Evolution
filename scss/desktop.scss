@@ -140,24 +140,73 @@
 
 
     }
-    .section-5 {
-        padding: 250px 0 0;
-        .first-website-fr {
-            padding-bottom: 10px !important;
+    .wrapper2 {
+        .labo {
+            width: 50%;
+            margin-left: 25%;
         }
+        .labo path:nth-child(1) {
+            stroke-dasharray: 2700px;
+            stroke-dashoffset: 2700px;
+        }
+        &.active {
+            .labo path:nth-child(1) {
+                animation: anim 2s ease forwards;
+            }
+        }
+
+        .section-6 {
+            .row:nth-child(1) {
+                .mosaic path {
+                    stroke-dasharray: 1500px;
+                    stroke-dashoffset: 1500px;
+                }
+                .col-lg-4 {
+                    display: flex;
+                    flex-direction: row;
+                    flex: 100%;
+                    max-width: 100%;
+
+                    .large-media {
+                        width: 36%;
+                        margin-left: 13%;
+                    }
+                    .text-block {
+                        width: 32%;
+                        padding-bottom: 100px;
+                    }
+                }
+            }
+            &.active {
+                .mosaic path {
+                    animation: anim 2s ease forwards;
+                }
+            }
+        }
+
+        .section-5 {
+            padding: 250px 0 0;
+            .first-website-fr {
+                padding-bottom: 10px !important;
+            }
+
+        }
+        .section-7 {
+            margin-bottom: 20%;
+            h2 {
+                text-align: center;
+            }
+            .text-block {
+                width: 100%;
+                max-width: 800px;
+                text-align: justify;
+                margin: 0 auto;
+            }
+        }
+
+
     }
-    .section-7 {
-        margin-bottom: 20%;
-        h2 {
-            text-align: center;
-        }
-        .text-block {
-            width: 100%;
-            max-width: 800px;
-            text-align: justify;
-            margin: 0 auto;
-        }
-    }
+
     .sources {
 
         position: relative;

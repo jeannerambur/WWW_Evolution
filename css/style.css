@@ -6,4 +6,8 @@ body {
   body .main {
     overflow: hidden; }
 
+@keyframes anim {
+  to {
+    stroke-dashoffset: 0; } }
+
 /*# sourceMappingURL=style.css.map */
