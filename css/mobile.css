@@ -35,6 +35,8 @@
       display: none; }
     .wrapper .hero-section {
       padding: 100px 0 0; }
+      .wrapper .hero-section h1 {
+        font-size: 50px; }
       .wrapper .hero-section .col-12 {
         background-color: #8C8C77; }
       .wrapper .hero-section .text-block {
