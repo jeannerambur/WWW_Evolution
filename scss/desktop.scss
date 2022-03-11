@@ -156,30 +156,172 @@
         }
 
         .section-6 {
-            .row:nth-child(1) {
-                .mosaic path {
-                    stroke-dasharray: 1500px;
-                    stroke-dashoffset: 1500px;
-                }
-                .col-lg-4 {
-                    display: flex;
-                    flex-direction: row;
-                    flex: 100%;
-                    max-width: 100%;
+            .row {
+                &:nth-child(1) {
+                    .mosaic path {
+                        stroke-dasharray: 1500px;
+                        stroke-dashoffset: 1500px;
+                    }
+                    .col-lg-4 {
+                        display: flex;
+                        flex-direction: row;
+                        flex: 100%;
+                        max-width: 100%;
 
-                    .large-media {
-                        width: 36%;
-                        margin-left: 13%;
-                    }
-                    .text-block {
-                        width: 32%;
-                        padding-bottom: 100px;
+                        .large-media {
+                            width: 36%;
+                            margin-left: 13%;
+                        }
+                        .text-block {
+                            width: 32%;
+                            padding-bottom: 100px;
+                        }
                     }
                 }
-            }
-            &.active {
-                .mosaic path {
-                    animation: anim 2s ease forwards;
+                &:nth-child(4) {
+                    .wifi path {
+                        stroke-dasharray: 1500px;
+                        stroke-dashoffset: 1500px;
+                    }
+                    .col-lg-4 {
+                        display: flex;
+                        flex-direction: row;
+                        flex: 100%;
+                        max-width: 100%;
+
+                        .large-media {
+                            width: 40%;
+                            margin-left: 13%;
+                        }
+                        .text-block {
+                            width: 32%;
+                            padding-bottom: 100px;
+                        }
+                    }
+                }
+                &:nth-child(7) {
+                    .money path {
+                        stroke-dasharray: 1500px;
+                        stroke-dashoffset: 1500px;
+                    }
+                    .col-lg-4 {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        flex: 100%;
+                        max-width: 100%;
+                        align-items: center;
+
+                        .large-media {
+                            width: 240%;
+                            margin-right: 10%;
+                        }
+                    }
+                    .offset-lg-8 {
+                        margin-left: 35%;
+                    }
+                }
+                &:nth-child(9) {
+                    .wikipedia path {
+                        stroke-dasharray: 3000px;
+                        stroke-dashoffset: 3000px;
+                    }
+                    .col-lg-4 {
+                        display: flex;
+                        flex-direction: row;
+                        flex: 100%;
+                        max-width: 100%;
+
+                        .large-media {
+                            width: 13%;
+                            margin-left: 5%;
+                            margin-top: 2%;
+                        }
+                        .text-block {
+                            width: 32%;
+                            padding-bottom: 100px;
+                        }
+                    }
+                }
+
+                &:nth-child(11) {
+                    .smart path {
+                        stroke-dasharray: 2000px;
+                        stroke-dashoffset: 2000px;
+                    }
+                    .col-lg-4 {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        flex: 100%;
+                        max-width: 100%;
+                        align-items: self-start;
+
+                        .large-media {
+                            width: 30%;
+                            margin-right: 10%;
+                        }
+                        .text-block {
+                            width: 40%;
+                        }
+                    }
+                    .offset-lg-8 {
+                        margin-left: 15%;
+                    }
+                }
+                &:nth-child(14) {
+                    .youtube path {
+                        stroke-dasharray: 2000px;
+                        stroke-dashoffset: 2000px;
+                    }
+                    .youtube polygon {
+                        stroke-dasharray: 1000px;
+                        stroke-dashoffset: 1000px;
+                    }
+                    .col-lg-4 {
+                        display: flex;
+                        flex-direction: column-reverse;
+                        .large-media {
+                            width: 30%;
+                        }
+                    }
+                }
+                &:nth-child(16) {
+                    .apple path {
+                        stroke-dasharray: 2000px;
+                        stroke-dashoffset: 2000px;
+                    }
+                    .col-lg-4 {
+                        display: flex;
+                        flex-direction: column-reverse;
+                        .large-media {
+                            width: 30%;
+                        }
+                    }
+                }
+                &.active {
+                    .mosaic path {
+                        animation: anim 2s ease forwards;
+                    }
+                    .wifi path {
+                        animation: anim 2s ease forwards;
+                    }
+                    .money path {
+                        animation: anim 2s ease forwards;
+                    }
+                    .wikipedia path {
+                        animation: anim 0.8s ease forwards;
+                    }
+                    .smart path {
+                        animation: anim 2s ease forwards;
+                    }
+                    .youtube path {
+                        animation: anim 2s ease forwards;
+                    }
+                    .youtube polygon {
+                        animation: anim 2s ease forwards;
+                    }
+                    .apple path {
+                        animation: anim 2s ease forwards;
+                    }
                 }
             }
         }
@@ -192,6 +334,7 @@
 
         }
         .section-7 {
+            padding-top: 100px;
             margin-bottom: 20%;
             h2 {
                 text-align: center;
@@ -201,6 +344,11 @@
                 max-width: 800px;
                 text-align: justify;
                 margin: 0 auto;
+            }
+
+            .blockchain, .metavers {
+                width: 40%;
+                margin-left: 30%;
             }
         }
 

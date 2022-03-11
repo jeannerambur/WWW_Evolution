@@ -26,7 +26,7 @@
 
       var pluginName = 'drawsvg',
       defaults = {
-        duration: 2.5,
+        duration: 2.2,
         stagger: 5,
         easing: 'swing',
         reverse: false,

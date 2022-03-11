@@ -7,8 +7,7 @@
     margin: 0; }
 
   h2 {
-    width: 60%;
-    margin-left: 20%; }
+    padding: 5% 4%; }
 
   .large-media {
     display: none; }
@@ -17,7 +16,7 @@
     display: block; }
 
   p {
-    padding-top: 5%; }
+    padding-top: 20%; }
 
   .col-lg-4, .col-12, .col-lg-6, .offset-lg-4, .offset-lg-6, .offset-lg-8 {
     position: relative;
@@ -83,9 +82,16 @@
       align-items: center;
       text-align: center;
       padding-top: 20%; }
-      .wrapper .section-4 .container h2 {
-        background-color: transparent;
-        color: #404040; }
+      .wrapper .section-4 .container .row {
+        padding-top: 10%; }
+        .wrapper .section-4 .container .row .text-block h2 {
+          background-color: transparent;
+          color: #404040;
+          padding: 0;
+          width: 100%; }
+        .wrapper .section-4 .container .row .text-block p {
+          text-align: center !important;
+          padding-top: 5%; }
 
   .wrapper2 {
     padding-bottom: 20%; }
@@ -94,9 +100,56 @@
       stroke-dashoffset: 2800px; }
     .wrapper2.active .labo-small path:nth-child(1) {
       animation: anim 2s ease forwards; }
+    .wrapper2 .section-7 .text-block h2 {
+      text-align: center; }
+    .wrapper2 .section-7 .blockchain {
+      width: 60%;
+      margin-left: 20%; }
+    .wrapper2 .section-7 .metavers {
+      width: 60%;
+      margin-left: 20%; }
     .wrapper2 .section-6 .row:nth-child(1) .mosaic-small path {
       stroke-dasharray: 1500px;
       stroke-dashoffset: 1500px; }
+    .wrapper2 .section-6 .row:nth-child(4) .wifi-small {
+      padding-top: 20%; }
+    .wrapper2 .section-6 .row:nth-child(4) .wifi-small path {
+      stroke-dasharray: 1500px;
+      stroke-dashoffset: 1500px; }
+    .wrapper2 .section-6 .row:nth-child(7) .money path {
+      stroke-dasharray: 1000px;
+      stroke-dashoffset: 1000px; }
+    .wrapper2 .section-6 .row:nth-child(8) .attention path {
+      stroke-dasharray: 3000px;
+      stroke-dashoffset: 3000px; }
+    .wrapper2 .section-6 .row:nth-child(9) .wikipedia-small {
+      width: 50%;
+      margin-left: 25%; }
+      .wrapper2 .section-6 .row:nth-child(9) .wikipedia-small path {
+        stroke-dasharray: 3000px;
+        stroke-dashoffset: 3000px; }
+    .wrapper2 .section-6 .row:nth-child(11) .smart path {
+      stroke-dasharray: 3000px;
+      stroke-dashoffset: 3000px; }
+    .wrapper2 .section-6 .row:nth-child(14) .youtube {
+      width: 70%;
+      margin-left: 15%;
+      padding-top: 30%; }
+    .wrapper2 .section-6 .row:nth-child(14) .youtube path {
+      stroke-dasharray: 1000px;
+      stroke-dashoffset: 1000px; }
+    .wrapper2 .section-6 .row:nth-child(14) .youtube polygon {
+      stroke-dasharray: 1000px;
+      stroke-dashoffset: 1000px; }
+    .wrapper2 .section-6 .row:nth-child(16) p {
+      text-align: center !important; }
+    .wrapper2 .section-6 .row:nth-child(16) .apple {
+      width: 40%;
+      margin-left: 30%;
+      padding-top: 5%; }
+    .wrapper2 .section-6 .row:nth-child(16) .apple path {
+      stroke-dasharray: 1000px;
+      stroke-dashoffset: 1000px; }
     .wrapper2 .section-6 .row.active .mosaic-small path {
       animation: anim 2s ease forwards; }
     .wrapper2 .section-6 .row.active .wifi-small path {
@@ -105,15 +158,16 @@
       animation: anim 6s ease forwards; }
     .wrapper2 .section-6 .row.active .smart path {
       animation: anim 9s ease forwards; }
-    .wrapper2 .section-6 .row:nth-child(4) .wifi-small path {
-      stroke-dasharray: 1500px;
-      stroke-dashoffset: 1500px; }
-    .wrapper2 .section-6 .row:nth-child(8) .attention path {
-      stroke-dasharray: 3000px;
-      stroke-dashoffset: 3000px; }
-    .wrapper2 .section-6 .row:nth-child(11) .smart path {
-      stroke-dasharray: 3000px;
-      stroke-dashoffset: 3000px; }
+    .wrapper2 .section-6 .row.active .youtube path {
+      animation: anim 2s ease forwards; }
+    .wrapper2 .section-6 .row.active .youtube polygon {
+      animation: anim 2s ease forwards; }
+    .wrapper2 .section-6 .row.active .apple path {
+      animation: anim 2s ease forwards; }
+    .wrapper2 .section-6 .row.active .money path {
+      animation: anim 2s ease forwards; }
+    .wrapper2 .section-6 .row.active .wikipedia-small path {
+      animation: anim 0.8s ease forwards; }
 
   .sources {
     position: relative;

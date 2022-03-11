@@ -5,9 +5,31 @@ body {
   background-color: #f9f7f5; }
   body .main {
     overflow: hidden; }
+  body .text-block p {
+    text-align: justify !important; }
+
+footer {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #404040;
+  color: #fff; }
+  footer p {
+    text-align: center;
+    padding: 5%;
+    margin: 0; }
 
 @keyframes anim {
   to {
     stroke-dashoffset: 0; } }
+audio {
+  padding-top: 50px; }
+
+.section-6 .row:nth-child(15) p, .section-6 .row:nth-child(18) p, .section-6 .row:nth-child(20) p {
+  text-align: center !important; }
+
+svg {
+  stroke: #8C8C77; }
 
 /*# sourceMappingURL=style.css.map */

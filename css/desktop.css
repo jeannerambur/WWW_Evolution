@@ -127,13 +127,106 @@
     .wrapper2 .section-6 .row:nth-child(1) .col-lg-4 .text-block {
       width: 32%;
       padding-bottom: 100px; }
-  .wrapper2 .section-6.active .mosaic path {
+  .wrapper2 .section-6 .row:nth-child(4) .wifi path {
+    stroke-dasharray: 1500px;
+    stroke-dashoffset: 1500px; }
+  .wrapper2 .section-6 .row:nth-child(4) .col-lg-4 {
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    max-width: 100%; }
+    .wrapper2 .section-6 .row:nth-child(4) .col-lg-4 .large-media {
+      width: 40%;
+      margin-left: 13%; }
+    .wrapper2 .section-6 .row:nth-child(4) .col-lg-4 .text-block {
+      width: 32%;
+      padding-bottom: 100px; }
+  .wrapper2 .section-6 .row:nth-child(7) .money path {
+    stroke-dasharray: 1500px;
+    stroke-dashoffset: 1500px; }
+  .wrapper2 .section-6 .row:nth-child(7) .col-lg-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 100%;
+    max-width: 100%;
+    align-items: center; }
+    .wrapper2 .section-6 .row:nth-child(7) .col-lg-4 .large-media {
+      width: 240%;
+      margin-right: 10%; }
+  .wrapper2 .section-6 .row:nth-child(7) .offset-lg-8 {
+    margin-left: 35%; }
+  .wrapper2 .section-6 .row:nth-child(9) .wikipedia path {
+    stroke-dasharray: 3000px;
+    stroke-dashoffset: 3000px; }
+  .wrapper2 .section-6 .row:nth-child(9) .col-lg-4 {
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    max-width: 100%; }
+    .wrapper2 .section-6 .row:nth-child(9) .col-lg-4 .large-media {
+      width: 13%;
+      margin-left: 5%;
+      margin-top: 2%; }
+    .wrapper2 .section-6 .row:nth-child(9) .col-lg-4 .text-block {
+      width: 32%;
+      padding-bottom: 100px; }
+  .wrapper2 .section-6 .row:nth-child(11) .smart path {
+    stroke-dasharray: 2000px;
+    stroke-dashoffset: 2000px; }
+  .wrapper2 .section-6 .row:nth-child(11) .col-lg-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 100%;
+    max-width: 100%;
+    align-items: self-start; }
+    .wrapper2 .section-6 .row:nth-child(11) .col-lg-4 .large-media {
+      width: 30%;
+      margin-right: 10%; }
+    .wrapper2 .section-6 .row:nth-child(11) .col-lg-4 .text-block {
+      width: 40%; }
+  .wrapper2 .section-6 .row:nth-child(11) .offset-lg-8 {
+    margin-left: 15%; }
+  .wrapper2 .section-6 .row:nth-child(14) .youtube path {
+    stroke-dasharray: 2000px;
+    stroke-dashoffset: 2000px; }
+  .wrapper2 .section-6 .row:nth-child(14) .youtube polygon {
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px; }
+  .wrapper2 .section-6 .row:nth-child(14) .col-lg-4 {
+    display: flex;
+    flex-direction: column-reverse; }
+    .wrapper2 .section-6 .row:nth-child(14) .col-lg-4 .large-media {
+      width: 30%; }
+  .wrapper2 .section-6 .row:nth-child(16) .apple path {
+    stroke-dasharray: 2000px;
+    stroke-dashoffset: 2000px; }
+  .wrapper2 .section-6 .row:nth-child(16) .col-lg-4 {
+    display: flex;
+    flex-direction: column-reverse; }
+    .wrapper2 .section-6 .row:nth-child(16) .col-lg-4 .large-media {
+      width: 30%; }
+  .wrapper2 .section-6 .row.active .mosaic path {
+    animation: anim 2s ease forwards; }
+  .wrapper2 .section-6 .row.active .wifi path {
+    animation: anim 2s ease forwards; }
+  .wrapper2 .section-6 .row.active .money path {
+    animation: anim 2s ease forwards; }
+  .wrapper2 .section-6 .row.active .wikipedia path {
+    animation: anim 0.8s ease forwards; }
+  .wrapper2 .section-6 .row.active .smart path {
+    animation: anim 2s ease forwards; }
+  .wrapper2 .section-6 .row.active .youtube path {
+    animation: anim 2s ease forwards; }
+  .wrapper2 .section-6 .row.active .youtube polygon {
+    animation: anim 2s ease forwards; }
+  .wrapper2 .section-6 .row.active .apple path {
     animation: anim 2s ease forwards; }
   .wrapper2 .section-5 {
     padding: 250px 0 0; }
     .wrapper2 .section-5 .first-website-fr {
       padding-bottom: 10px !important; }
   .wrapper2 .section-7 {
+    padding-top: 100px;
     margin-bottom: 20%; }
     .wrapper2 .section-7 h2 {
       text-align: center; }
@@ -142,6 +235,9 @@
       max-width: 800px;
       text-align: justify;
       margin: 0 auto; }
+    .wrapper2 .section-7 .blockchain, .wrapper2 .section-7 .metavers {
+      width: 40%;
+      margin-left: 30%; }
 
   .sources {
     position: relative;

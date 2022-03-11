@@ -6,9 +6,26 @@ body {
 	.main {
 		overflow: hidden;
 	}
-
+	.text-block {
+		p {
+			text-align: justify !important;
+		}
+	}
 }
 
+footer {
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	background-color: #404040;
+	color: #fff;
+	p {
+		text-align: center;
+		padding: 5%;
+		margin: 0;
+	}
+}
 
 @keyframes anim {
 	to {
@@ -16,3 +33,20 @@ body {
 	}
 }
 
+audio {
+	padding-top: 50px;
+}
+.section-6 {
+	.row {
+
+		&:nth-child(15), &:nth-child(18), &:nth-child(20) {
+			p {
+				text-align: center !important;
+			}
+		}
+	}
+}
+
+svg {
+	stroke: #8C8C77;
+}
